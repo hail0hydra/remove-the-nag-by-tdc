@@ -23,12 +23,12 @@ This repository contains my reverse engineering walkthrough and patch for the cl
 ```text
 tdc-crackme-patch/
 ├── README.md                 # You're reading this!
-├── RemoveTheNag.zip         # Original CrackMe binary (unmodified)
-├── patch_notes.txt          # Patch strategy and byte-level summary
-├── screenshots/             # Before/after snapshots from IDA
+├── RemoveTheNag.7z           # Original CrackMe binary (unmodified)
+├── patch_notes.md            # Patch strategy and byte-level summary
+├── screenshots/              # Before/after snapshots from IDA
 │   ├── before_patch.png
 │   └── after_patch.png
-└── patched_binary.exe       # (Optional) Patched binary if legally shareable
+└── patched_binary.exe       # Patched binary if legally shareable
 ```
 
 ---
