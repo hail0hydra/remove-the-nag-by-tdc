@@ -21,7 +21,7 @@ This repository contains my reverse engineering walkthrough and patch for the cl
 ## 🗂️ Repository Structure
 
 ```text
-emove-the-nag-by-tdc/
+remove-the-nag-by-tdc/
 ├── README.md                 # You're reading this!
 ├── RemoveTheNag.7z           # Original CrackMe binary (unmodified)
 ├── patch_notes.md            # Patch strategy and byte-level summary
