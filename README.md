@@ -1,0 +1,71 @@
+# 🧠 CrackMe Challenge – "Remove the Nag" by TDC
+
+This repository contains my reverse engineering walkthrough and patch for the classic CrackMe challenge by **The Dutch Cracker (TDC)**.
+
+> 📚 Part of my coursework for Malware Analysis and Cyber Defence  
+> 🛠️ Reverse engineered and patched in under 12 hours  
+> ✨ Goal: Turn a nagging binary into a grateful one
+
+---
+
+## 🎯 Objectives
+
+- Remove the nag screen at startup  
+- Make the "Re-Check" button display:  
+  `"Thank you for registering this software"`  
+- Change the status box to:  
+  `"Clean crack! Good Job!"`
+
+---
+
+## 🗂️ Repository Structure
+
+```text
+tdc-crackme-patch/
+├── README.md                 # You're reading this!
+├── RemoveTheNag.zip         # Original CrackMe binary (unmodified)
+├── patch_notes.txt          # Patch strategy and byte-level summary
+├── screenshots/             # Before/after snapshots from IDA
+│   ├── before_patch.png
+│   └── after_patch.png
+└── patched_binary.exe       # (Optional) Patched binary if legally shareable
+```
+
+---
+
+## 📖 Write-Up
+
+👉 Read the full Medium article for a fun and philosophical breakdown:  
+🔗 [https://medium.com/your-article-url](https://medium.com/@avinasharma.2412/i-patched-a-binary-until-it-thanked-me-reverse-engineering-remove-the-nag-by-the-dutch-cracker-0eacc749b9b3)
+
+_(Replace the above URL with your real Medium link once published.)_
+
+---
+
+## ⚠️ Disclaimer
+
+This repository is for **educational purposes only**.  
+No copyrighted or malicious software is included or distributed.  
+Reverse engineering was performed on a publicly available CrackMe intended for legal, academic learning.
+
+---
+
+## 🧠 Key Learnings
+
+- 🌀 Don’t trust shiny strings — they distract
+- 🖱️ GUI apps need interaction — click before you hack
+- 📊 Global variables are the heartbeat of binary state
+- 🧘‍♂️ Reverse engineering is about listening, not brute-forcing
+
+---
+
+## 🧰 Tools Used
+
+- IDA Free 8.3
+- x64dbg
+- HxD Hex Editor
+- Windows 10 VM (FlareVM)
+
+---
+
+Happy reversing! 🎯
