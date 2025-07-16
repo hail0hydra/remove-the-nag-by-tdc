@@ -36,9 +36,8 @@ tdc-crackme-patch/
 ## 📖 Write-Up
 
 👉 Read the full Medium article for a fun and philosophical breakdown:  
-🔗 [https://medium.com/your-article-url](https://medium.com/@avinasharma.2412/i-patched-a-binary-until-it-thanked-me-reverse-engineering-remove-the-nag-by-the-dutch-cracker-0eacc749b9b3)
+🔗 [https://medium.com/](https://medium.com/@avinasharma.2412/i-patched-a-binary-until-it-thanked-me-reverse-engineering-remove-the-nag-by-the-dutch-cracker-0eacc749b9b3)
 
-_(Replace the above URL with your real Medium link once published.)_
 
 ---
 
@@ -62,7 +61,6 @@ Reverse engineering was performed on a publicly available CrackMe intended for l
 ## 🧰 Tools Used
 
 - IDA Free 8.3
-- x64dbg
 - HxD Hex Editor
 - Windows 10 VM (FlareVM)
 
